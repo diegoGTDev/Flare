@@ -9,10 +9,11 @@ export default defineConfig([
   {
     rules: {
       "react/prop-types": "off",
-      "react/react-in-jsx-scope": "off",
+      "react/react-in-jsx-scope": "disabled",
       "@typescript-eslint/no-floating-promises": "off",
       "@typescript-eslint/explicit-function-return-type": "off",
-      "@typescript-eslint/no-minused-promises": "off"
+      "@typescript-eslint/no-minused-promises": "off",
+      "react/jsx-uses-react": "off",
     }
   },
   { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"], plugins: { js }, extends: ["js/recommended"] },
